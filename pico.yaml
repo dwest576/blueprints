@@ -147,7 +147,7 @@ action:
     sequence:
     - wait_for_trigger:
       - platform: device
-        device_id: !input pico_id
+        device_id: !input pico
         domain: lutron_caseta
         type: release
         subtype: 'on'
@@ -251,7 +251,7 @@ action:
     sequence:
     - wait_for_trigger:
       - platform: device
-        device_id: !input pico_id
+        device_id: !input pico
         domain: lutron_caseta
         type: release
         subtype: 'on'
