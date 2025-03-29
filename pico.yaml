@@ -1,6 +1,7 @@
 blueprint:
   name: Lutron Pico 5 Button - 931 Modified
   domain: automation
+  source_url: https://github.com/dwest576/blueprints/pico.yaml
   input:
     pico:
       name: Pico Device
